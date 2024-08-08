@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6e48e62a-443a-44ed-874d-a0972cdfa18a)# Конспекты по алгоритмам
+# Конспекты по алгоритмам
 
 ### Оглавление
 
