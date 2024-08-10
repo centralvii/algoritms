@@ -385,7 +385,36 @@ if (! isNull(a)){...}
 if (isNotNull(a)){...}
 ```
 <br/>
+
 Проверки значений `if` `else if`
+
 ```
 if (a) { ... }
+```
+
+### Логическая диагностика типа
+
+Логическая диагностика // isИмяПредполагаемогоТипа
+
+```
+def s1:="176"
+printout(s1.isInteger() ) // true
+
+def s2:="150.25"
+printout(s2.isInteger() ) // false
+
+def s3:="175.90"
+printout(s1.isFloat() ) // true
+
+def s4:="4.2E+9"
+printout(s1.isBigDecimal() ) // true
+```
+
+Преобразование после успешной проверки // toИмяПроверенногоТипа
+
+```
+def s1:="176"
+if (s1.isInteger()) {
+    s1_int := s1.toInteger()
+}
 ```
